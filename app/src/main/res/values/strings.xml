@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="FamousPlaces">Famous Places</string>
+    <string name="Resturant">Resturant</string>
+    <string name="ShoppingPlaces">Shopping Places</string>
+    <string name="Hotels">Hotels</string>
+
+</resources>

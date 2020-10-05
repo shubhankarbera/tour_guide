@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tourguideapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity_Resturant_Absolute_Barbecue" android:label="Details"/>
+        <activity android:name=".Activity_Resturant_windmill_craftworks" android:label="Details"/>
+        <activity android:name=".Activity_Resturant_Airlines_Hotel" android:label="Details" />
+        <activity android:name=".Activity_Resturant_Byg_Brewski" android:label="Details"/>
+        <activity android:name=".Activity_Resturant_Truffles" android:label="Details"/>
+        <activity android:name=".Activity_Famous_nagarhole_national_park" android:label="Details"/>
+        <activity android:name=".Activity_Famous_mangalore" android:label="Details"/>
+        <activity android:name=".Activity_Famous_gokarna" android:label="Details"/>
+        <activity android:name=".Activity_Famous_mysore" android:label="Details"/>
+        <activity android:name=".activity_shoppingPlaces_cauvery_handicrafts_emporium" android:label="Details"/>
+        <activity android:name=".activity_shoppingPlaces_Safina_Plaza" android:label="Details"/>
+        <activity android:name=".activity_shoppingPlaces_national_market" android:label="Details"/>
+        <activity android:name=".activity_shoppingPlaces_forum_mall" android:label="Details"/>
+        <activity android:name=".acivity_shoppingPlaces_commercial_street" android:label="Details"/>
+        <activity android:name=".activity_hotels_conrad" android:label="Details"/>
+        <activity android:name=".activity_Hotels_the_leela_palace" android:label="Details"/>
+        <activity android:name=".activity_hotels_Ritz_Carlton" android:label="Details"/>
+        <activity android:name=".activity_Hotels_taj_vivanta" android:label="Details"/>
+        <activity
+            android:name=".activity_Hotels_sheraton_grand"
+            android:label="Details "
+            >
+
+        </activity>
+        <activity android:name=".Activity_Famous_chikmagalur" android:label="Details"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
